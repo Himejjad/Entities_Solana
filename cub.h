@@ -14,8 +14,8 @@
 # define CUB_H
 
 # include "./get_next_line/get_next_line.h"
-# include "/nfs/homes/himejjad/Downloads/minilibx-linux/mlx.h"
-# include "/nfs/homes/himejjad/Downloads/minilibx-linux/mlx_int.h"
+# include "minilibx-linux/mlx.h"
+# include "minilibx-linux/mlx_int.h"
 # include <math.h>
 
 # define RED "\033[7m\033[31m"
