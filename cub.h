@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: himejjad <himejjad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: himejjad <himejjad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/30 12:53:29 by arahmoun          #+#    #+#             */
-/*   Updated: 2023/12/13 01:37:11 by himejjad         ###   ########.fr       */
+/*   Updated: 2023/12/25 11:43:13 by himejjad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 # define CUB_H
 
 # include "./get_next_line/get_next_line.h"
-# include "minilibx-linux/mlx.h"
-# include "minilibx-linux/mlx_int.h"
+# include "linux/mlx.h"
+# include "linux/mlx_int.h"
 # include <math.h>
 
 # define RED "\033[7m\033[31m"

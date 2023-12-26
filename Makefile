@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: himejjad <himejjad@student.42.fr>          +#+  +:+       +#+         #
+#    By: himejjad <himejjad@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/30 12:53:19 by arahmoun          #+#    #+#              #
-#    Updated: 2023/12/13 03:23:57 by himejjad         ###   ########.fr        #
+#    Updated: 2023/12/25 11:49:06 by himejjad         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,10 @@ SRCS = ${GNL} ${PSRC} ${RSRC} main.c
 
 MLX = -lmlx -framework OpenGL -framework AppKit
 
-MLX_LINUX = -lmlx -lXext -lX11 -lm -lmcheck
+INC=%%%%
+
+INCLIB=$(INC)/../lib
+MLX_LINUX = -L.. -lmlx -L$(INCLIB) -lXext -lX11 -lm
 
 FLAGS = -Wall -Wextra -Werror -Ofast
 
