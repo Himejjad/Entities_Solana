@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = SOLANA_MAXI
+NAME = Entities_Solana
 
 GNL = get_next_line/get_next_line.c get_next_line/get_next_line_utils.c 
 
