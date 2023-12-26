@@ -106,7 +106,7 @@ void	start_mlx(t_game *game)
 	init_rotation(game, game->t_map);
 	set_animation(game);
 	game->mlx = mlx_init();
-	game->win = mlx_new_window(game->mlx, WIDTH, HEIGHT, (char *)" GAME SOLANA MAXI BY : [toretto5658] ");
+	game->win = mlx_new_window(game->mlx, WIDTH, HEIGHT, (char *)" GAME Entities_Solana BY : [toretto1337] ");
 	game->img = mlx_new_image(game->mlx, WIDTH, HEIGHT);
 	game->addr = mlx_get_data_addr(game->img, &game->bits_per_pixel,
 			&game->line_length, &game->endian);
